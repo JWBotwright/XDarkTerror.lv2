@@ -62,6 +62,7 @@ all : check $(NAME)
 	@mkdir -p ./$(BUNDLE)
 	@cp ./plugin/*.ttl ./$(BUNDLE)
 	@mv ./*.so ./$(BUNDLE)
+	@cp -R ./mod/* ./$(BUNDLE)
 	@if [ -f ./$(BUNDLE)/$(NAME).so ]; then echo $(BLUE)"build finish, now run make install"; \
 	else echo $(RED)"sorry, build failed"; fi
 	@echo $(NONE)

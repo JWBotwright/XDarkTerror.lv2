@@ -1,0 +1,18 @@
+{
+    "author": "Brummer10", 
+    "controls": [
+        {
+            "name": "VOLUME", 
+            "symbol": "VOLUME"
+        }, 
+        {
+            "name": "SHAPE", 
+            "symbol": "SHAPE"
+        }, 
+        {
+            "name": "GAIN", 
+            "symbol": "GAIN"
+        }, 
+    ], 
+    "label": "XDarkTerror"
+}

@@ -1,0 +1,51 @@
+.XDarkTerror{{{cns}}} {
+    background-image: url(/resources/XDarkTerror.png{{{ns}}});
+    position: absolute;
+    width: 603px;
+    height: 281px;
+}
+
+.XDarkTerror{{{cns}}} .mod-pedal-input , .XDarkTerror{{{cns}}} .mod-pedal-output {
+    top: 40%;
+}
+
+.XDarkTerror{{{cns}}} .mod-switch {
+    position:absolute;
+    background-image:url(/resources/switch.png{{{ns}}});
+    background-position:top left;
+    background-repeat:no-repeat;
+    background-size:auto 52px;
+    cursor:pointer;
+    height: 52px;
+    width: 52px;
+    left: 60px;
+    top: 200px;
+    z-index: 100;
+}
+
+.XDarkTerror{{{cns}}} .mod-switch.off {
+    background-position:top left;
+}
+.XDarkTerror{{{cns}}} .mod-switch.on {
+    background-position:top right;
+}
+
+.XDarkTerror{{{cns}}} .mod-pedal-knob {
+    background-image: url(/resources/knob.png{{{ns}}});
+    height: 66px;
+    position: absolute;
+    width: 66px;
+    top: 200px;
+    z-index: 40;
+}
+
+.XDarkTerror{{{cns}}} .mod-pedal-knob.mod-pedal-knob-volume {
+    left: 180px;
+}
+.XDarkTerror{{{cns}}} .mod-pedal-knob.mod-pedal-knob-shape {
+    left: 280px;
+}
+.XDarkTerror{{{cns}}} .mod-pedal-knob.mod-pedal-knob-gain {
+    left: 380px;
+}
+

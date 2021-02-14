@@ -326,6 +326,7 @@ const LV2_Descriptor Gx_darkterror_::descriptor =
 
 extern "C"
 LV2_SYMBOL_EXPORT
+__attribute__ ((visibility ("default")))
 const LV2_Descriptor*
 lv2_descriptor(uint32_t index)
 {
